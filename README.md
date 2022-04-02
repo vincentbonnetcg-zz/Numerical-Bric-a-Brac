@@ -230,6 +230,15 @@ Random notebooks about dynamic programming and monte carlo methods
   </tr>
   <tr>
     <td align='center' width='150'>
+      <a href ="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/miscellaneous/numba_intro.ipynb">
+      <img src="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/data/thumbnails/numba.png" alt="markov_chain" width="120px" height="70px">
+	  </a></br>
+	  <a href="https://colab.research.google.com/github/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/miscellaneous/numba_intro.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+    </td>
+    <td>Introduction to Numba</td>
+  </tr>
+  <tr>
+    <td align='center' width='150'>
       <a href ="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/miscellaneous/dynamic_programming.ipynb">
       <img src="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/data/thumbnails/dynamic_programming.png" alt="dynamic_programming" width="120px" height="70px">
       </a></br>
