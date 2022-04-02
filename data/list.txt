@@ -1,0 +1,12 @@
+
+# Datasets
+. kaggle_poem_dataset.csv
+File downloaded from https://www.kaggle.com/johnhallman/complete-poetryfoundationorg-dataset
+. FacialKeypointsDetection
+File downloaded from https://www.kaggle.com/c/facial-keypoints-detection/data
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+# Dataset : https://www.kaggle.com/NUFORC/ufo-sightings
+
+# -------------------- INPUT ---------------------------#
+rule input:
+    output:
+        "data/ufo_sightings_scrubbed.csv"
+
+# -------------------- DATA PREPARATION ------------------------ # 
+# Description : from to json
+# snakemake "data/processed/ufo_cylinder.json" -c1
+# snakemake "data/processed/ufo_{shape}.json" -c1
+rule prep_to_json:
+    input:
+        "data/ufo_sightings_scrubbed.csv"
+    output:
+        "data/processed/ufo_{shape}.json"
+    params:
+        shape="{shape}"
+    shell:
+       "python prep_data.py -input_file {input} -output_file {output} -shape_name {params.shape}"
+
+# -------------------- PLOT DATA PER FILE ------------------------ # 
+# Description : plot a json file
+# snakemake "data/processed/ufo_time_cylinder.png" -c1
+# snakemake "data/processed/ufo_time_{shape}.png" -c1
+rule plot_time_json:
+    input:
+        "data/processed/ufo_{shape}.json"
+    output:
+        time="data/processed/ufo_time_{shape}.png"
+    shell:
+        "python plot_data.py -input_file {input} -output_file {output.time} -attribute=time"
+
+# Description : plot a json file
+# snakemake "data/processed/ufo_duration_cylinder.png" -c1
+# snakemake "data/processed/ufo_duration_{shape}.png" -c1
+rule plot_duration_json:
+    input:
+        "data/processed/ufo_{shape}.json"
+    output:
+        duration="data/processed/ufo_duration_{shape}.png"
+    shell:
+        "python plot_data.py -input_file {input} -output_file {output.duration} -attribute=duration"
+
+# -------------------- CREATE REPORT ALL DATA ----------------- # 
+# Description : Create a report
+# snakemake create_report -c1
+def ufo_shapes():
+    return ['cylinder','sphere','disk', 'oval', 'light','cigar','triangle','formation', 'changing', 'fireball']
+
+rule create_report:
+    input:
+        time = expand("data/processed/ufo_time_{shape}.png", shape=ufo_shapes()),
+        duration = expand("data/processed/ufo_duration_{shape}.png", shape=ufo_shapes()),
+        json = expand("data/processed/ufo_{shape}.json", shape=ufo_shapes())
+    output:
+        "data/processed/report.md"
+    shell:
+        "python create_report.py -input_duration_pngs {input.duration} -input_time_pngs {input.time} -input_jsons {input.json} -output_file={output}"
+
+
+
