@@ -1,6 +1,6 @@
 # Numerical Bric-a-Brac
 Notebook collections on numerical techniques using Python and standard computational packages (Numpy, SciPy, Numba, Matplotlib ...).
-These notebooks were used for educational purposes at meetups, online discussions, and study groups.
+These notebooks were used for educational purposes at **meetups** or **study groups**.
 
 **Blog** : https://numericalbricabrac.ghost.io/
 
