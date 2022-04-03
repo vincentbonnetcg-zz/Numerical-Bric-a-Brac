@@ -77,7 +77,7 @@ Notebooks about machine learning techniques such as dimensionality reduction.
 </table>
 </details>
 
-## CNNs
+## ConvNets
 
 Example of convolutional neural network for classification problems or face landmarks.
 
