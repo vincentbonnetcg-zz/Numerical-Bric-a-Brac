@@ -1,5 +1,6 @@
 # Numerical Bric-a-Brac
-Collections of numerical techniques with Python and standard computational packages (Numpy, SciPy, Numba, Matplotlib ...).
+Notebook collections on numerical techniques using Python and standard computational packages (Numpy, SciPy, Numba, Matplotlib ...).
+These notebooks were used for educational purposes at **meetups** or **study groups**.
 
 **Blog** : https://numericalbricabrac.ghost.io/
 
@@ -77,7 +78,7 @@ Notebooks about machine learning techniques such as dimensionality reduction.
 </table>
 </details>
 
-## CNNs
+## ConvNets
 
 Example of convolutional neural network for classification problems or face landmarks.
 
