@@ -14,7 +14,7 @@ Notebooks demonstrating animation or simulation algorithms.
 <tbody>
   <tr>
     <td align='center' width='150'>
-      <a href ="https://github/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/animation/implicit_time_integrator.ipynb">
+      <a href ="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/animation/implicit_time_integrator.ipynb">
       <img src="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/data/thumbnails/implicit_solver.png" alt="implicit_solver" width="120px" height="70px">
 	  </a></br>
       <a href="https://colab.research.google.com/github/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/animation/implicit_time_integrator.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a></td>
