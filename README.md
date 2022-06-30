@@ -296,7 +296,9 @@ Random notebooks about dynamic programming and monte carlo methods
 </table>
 </details>
 
-## Intro to Machine Learning
+---
+
+## Intro to Machine Learning (old)
 
 Those notebooks are the core algorithms for supervised and unsupervised learning in Machine learning.
 
@@ -364,7 +366,7 @@ Those notebooks are the core algorithms for supervised and unsupervised learning
 </details>
 
 
-## Intro to Graph Theory
+## Intro to Graph Theory (draft)
 
 Part of discrete mathematics, graph theory is the study of graphs, a structures used to model pairwise relations between objects.
 Graph theory includes problems such as the travelling salesman problem and the spectral analysis of graph. 
