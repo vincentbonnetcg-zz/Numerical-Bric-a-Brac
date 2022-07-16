@@ -214,7 +214,7 @@ Random notebooks about dynamic programming and monte carlo methods
   <tr>
     <td align='center' width='150'>
       <a href ="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/miscellaneous/image_processing_with_Fourier_transform.ipynb">
-      <img src="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/data/thumbnails/multivariable_optimizations.png" alt="multivariable_optimizations">
+      <img src="https://github.com/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/data/thumbnails/template.png" alt="multivariable_optimizations">
 	  </a></br>
 	  <a href="https://colab.research.google.com/github/vincentbonnetcg/Numerical-Bric-a-Brac/blob/master/miscellaneous/image_processing_with_Fourier_transform.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a></td>
     <td>Image processing in frequency domain</td>
